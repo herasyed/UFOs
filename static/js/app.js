@@ -25,7 +25,7 @@ function buildTable(data) {
 
 // create function to handle input regarding data
 function handleClick() {
-    let date = d3.select("#datetime").property("value");
+    let date = d3.select("#datetime").property("#value");
     let filteredData = tableData;
 
     // use date as filter, if no date return default data
